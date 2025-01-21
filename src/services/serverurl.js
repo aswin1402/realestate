@@ -1,0 +1,1 @@
+export const server_url='https://realstate-server-93br.onrender.com'

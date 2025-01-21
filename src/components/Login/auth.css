@@ -1,0 +1,71 @@
+/* Auth.css */
+.auth-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensures it's on top of other content */
+  }
+  
+  .auth-card {
+    background: #222;
+    color: white;
+    border-radius: 8px;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .auth-card h5 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .auth-card .form-control {
+    background-color: #333;
+    border: 1px solid #555;
+    color: white;
+  }
+  
+  .auth-card .btn-warning {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f39c12;
+    border: none;
+    transition: background-color 0.3s;
+  }
+  
+  .auth-card .btn-warning:hover {
+    background-color: #e67e22;
+  }
+  
+  .auth-card p {
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .auth-card p a {
+    color: #f39c12;
+  }
+  
+  .auth-card p a:hover {
+    color: #e67e22;
+  }
+  
+  .close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  

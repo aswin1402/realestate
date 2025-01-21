@@ -1,0 +1,51 @@
+
+.search-bar {
+   margin:  30px auto;
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid rgba(120, 120, 120, 0.374);
+    padding: 0.5rem 1rem;
+    width:600px;
+    justify-content: space-between;
+  }
+  .search-bar > input {
+    border: none;
+    outline: none;
+    margin-top: 5px;
+  }
+  .row{
+    display: flex;
+    gap: 60px;
+     
+   
+    
+    
+  }
+  .card img{
+    width: 250px;
+    height: 200px;
+  }
+  .row1{
+    display: flex;
+    
+    gap: 60px;
+  }
+  .properties-container{
+    gap: 2rem;
+}
+.properties-container .search-bar{
+    width: clamp(12rem, 100%, 28rem);
+    border-radius: 30px;
+    border: 1px solid rgba(120, 120, 120, 0.374);
+    flex-wrap: nowrap;
+}
+
+.properties-container .search-bar .button{
+    border-radius: 30px;
+    font-size: 12px;
+    padding: 10px 15px;
+}
+
+.properties-container .search-bar input{
+    width: 70%;
+}
