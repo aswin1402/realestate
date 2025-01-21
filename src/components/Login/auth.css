@@ -68,4 +68,47 @@
     font-size: 20px;
     cursor: pointer;
   }
+
+/* General styles remain the same */
+
+/* Media query for tablets and laptops */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .auth-card {
+    width: 80%; /* Adjust width to make it fit better on medium screens */
+    padding: 15px;
+  }
+}
+
+/* Media query for mobile screens */
+@media (max-width: 767px) {
+  .auth-container {
+    padding: 10px; /* Add padding to prevent edges from touching */
+  }
+  
+  .auth-card {
+    width: 100%; /* Full width for smaller screens */
+    padding: 15px;
+    border-radius: 4px; /* Reduce border radius for a compact design */
+  }
+  
+  .auth-card h5 {
+    font-size: 18px; /* Slightly smaller heading */
+  }
+  
+  .auth-card .btn-warning {
+    font-size: 14px; /* Adjust button font size */
+    padding: 8px;
+  }
+  
+  .auth-card p {
+    font-size: 12px; /* Smaller text for mobile */
+  }
+  
+  .close-modal {
+    font-size: 18px; /* Slightly smaller close button */
+    top: 5px;
+    right: 5px;
+  }
+}
+
   
